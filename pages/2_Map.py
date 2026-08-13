@@ -147,7 +147,7 @@ for _, row in df.iterrows():
             row["Latitude"],
             row["Longitude"]
         ],
-        radius=8,
+        radius=4,
         tooltip=row["Kota"],
         popup=folium.Popup(
             popup_html,
